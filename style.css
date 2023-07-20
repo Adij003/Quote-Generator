@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    height: 100vh;
+    background: url('/js/FreeCodeCamp/Mini_JS_Project_1/img/librarybgi.png') no-repeat; 
+    background-size: cover;
+    
+
+}
+.container{
+    width: 600px;
+    height: 500px;
+}
+.header{
+    padding: 10px;
+    border: 5px solid black;
+    width: 610px;
+    border-radius: 10px;
+    background-color: wheat;
+}
+.space{
+    height: 10px;
+}
+.mainContent{
+    width: 100%;
+    background-color: wheat;
+    height: 200px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 10px;
+}
+.nqButton #newQuote{
+    font-size: 1.0rem;
+    padding: 10px;
+}
+.quote{
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;
+    
+}
+.person{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+.textArea{
+        margin-top: 20px; 
+}
+.nqButton button:active{
+    background-color: rgb(173, 173, 225);
+    border-radius: 5px;
+
+}
